@@ -8,7 +8,7 @@ fs = 22050
 second = 5
 D = []
 test_model = tf.keras.models.load_model(
-    'C:/Users/ppeng/Documents/AI_babyclassified/model_DataAugmented_ver21')
+    'C:/Users/ppeng/Documents/AI_babyclassified/model_babycryclassification_ver_6')
 print("recording...")
 record_voice = sounddevice.rec(int(second * fs), samplerate=fs, channels=2)
 sounddevice.wait()
